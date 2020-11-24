@@ -1,0 +1,31 @@
+@import "../libs/bootstrap/bootstrap-grid.min.css";
+@import "../libs/owlcarousel/owl.carousel.min.css";
+@import "../libs/owlcarousel/owl.theme.default.min.css";
+@import "../fonts/MyriadPro/stylesheet.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  font-family: 'Myriad Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@import "./header";
+@import "./mainscreen";
+@import "./about";
+@import "./services";
+@import "./skills";
+@import "./portfolio";
+@import "./testimoniasl.scss";
+@import "./funfact.scss";
+@import "./media";

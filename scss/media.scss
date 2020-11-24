@@ -1,0 +1,34 @@
+@media screen and (max-width: 1199px) {
+    .about {
+        .container {
+            background: none;
+        }
+        &__block {
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    .services {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .mainscreen{
+        .container {
+            background: none;
+        }
+        &__title {
+            margin-top: 95px;
+        }
+        &__block {
+            margin: 0 auto;
+            text-align: center;
+        }
+        &__btns {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

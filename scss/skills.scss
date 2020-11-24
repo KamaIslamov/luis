@@ -1,0 +1,19 @@
+.skills {
+    padding-bottom: 150px;
+    &__line {
+        width: 61px;
+        height: 3px;
+        background: #4d4d4d;
+        margin-top: 116px;
+    }
+    h3 {
+        color: #4D4D4D;
+        opacity: 0.8;
+        font-size: 46px;
+        margin-top: 20px;
+        letter-spacing: 3px;
+    }
+    img {
+        margin-top: 55px;
+    }
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 991px) {
+  .mainscreen .container {
+    background: none;
+  }
+  .mainscreen__title {
+    margin-top: 95px;
+  }
+  .mainscreen__block {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .mainscreen__btns {
+    display: flex;
+    justify-content: center;
+  }
+}

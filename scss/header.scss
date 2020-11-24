@@ -1,0 +1,39 @@
+.header {
+  padding-top: 31px;
+  padding-bottom: 15px;
+  background: #e1e1e1;
+
+  &__logo {
+    width: 81px;
+    height: 55px;
+    &-img1 {
+      width: 24px;
+      height: 24px;
+    }
+    &-img2 {
+      width: 81px;
+      height: 12px;
+      margin-top: 10px;
+    }
+    &-img3 {
+      width: 37px;
+      height: 4px;
+      margin-top: 5px;
+    }
+  }
+
+  &__links {
+    width: 520px;
+    &-link {
+      font-size: 21px;
+      text-transform: uppercase;
+      color: #4D4D4D;
+      transition: 0.5s all;
+      &:hover {
+        color: #000;
+        transform: scale(1.1);
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}

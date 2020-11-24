@@ -1,0 +1,66 @@
+.services {
+    height: 694px;
+    background: #e1e1e1;
+    &__line {
+        width: 61px;
+        height: 3px;
+        background: #4d4d4d;
+        margin-top: 119px;
+    }
+    h3 {
+        color: #4D4D4D;
+        opacity: 0.8;
+        font-size: 46px;
+        margin-top: 20px;
+        letter-spacing: 3px;
+    }
+    &__cards1 {
+        margin-top: 60px;
+        align-items: baseline;
+        .card1 {
+            width: 150px;
+            height: 100px;
+            margin-right: 229px;
+        }
+        .card2 {
+            width: 196px;
+            height: 101px;
+            margin-right: 235px;
+        }
+        .card3 {
+            width: 131px;
+            height: 113px;
+        }
+    }
+    &__cards2 {
+        margin-top: 90px;
+        align-items: baseline;
+        .card4 {
+            width: 157px;
+            height: 145px;
+            margin-right: 282px;
+            margin-left: 30px;
+        }
+        .card5 {
+            width: 86px;
+            height: 121px;
+            margin-right: 251px;
+        }
+        .card6 {
+            width: 206px;
+            height: 115px;
+        }
+    }
+    &__card {
+        transition: 0.2s all;
+        &:hover {
+            transform: scale(1.050);
+        }
+        span {
+            text-align: center;
+            margin-top: 15px;
+            color: #4D4D4D;
+            font-weight: bold;
+        }
+    }
+}
